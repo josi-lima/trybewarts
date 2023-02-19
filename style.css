@@ -91,7 +91,7 @@ main {
 
 /* Trybewarts image logo */
 #trybewarts-forms-logo {
-  height: 500px;
+  height: 36vmax;
 }
 
 /* =========== Evaluation form =================  */
@@ -99,7 +99,10 @@ main {
   display: flex;
   flex-flow: column wrap;
   margin: 0.7vmax 2vmax;
-  width: 675px;
+  padding: 2vmax;
+  width: 40vmax;
+  border-radius: 1.7rem;
+  background-color: rgba(59, 67, 65, 0.547);
 }
 
 /* All inputs */
