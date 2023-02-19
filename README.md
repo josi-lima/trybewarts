@@ -1,2 +1,16 @@
-# Trybewarts 🧙
-[ HTML / CSS / JavaScript ] Page content - in PORTUGUESE. Trybe Project | A page with the theme of the movie saga Harry Potter, displaying an evaluation form. On this page, the user is able to evaluate his or her experience in the fictious wizarding development school "Trybewarts".
+# Trybewarts Wizarding School 🧙
+⚡[ HTML / CSS / JavaScript ] --- https://josi-lima.github.io/trybewarts/
+
+[por] Page content - in PORTUGUESE. 
+
+<br>
+
+<strong>[EN]</strong>
+<br>
+[Trybe](https://www.betrybe.com/) Project | A page with the theme of the movie saga Harry Potter, displaying an evaluation form. On this page, the user is able to evaluate his or her experience in the fictious wizarding development school "Trybewarts".
+
+<br>
+<strong>[POR]</strong>
+<br>
+
+Projeto [Trybe](https://www.betrybe.com/) | Uma página com o tema do filme Harry Potter, exibindo uma ficha de avaliação. Nesta página, o usuário pode avaliar sua experiência na escola fictícia de desenvolvimento de magia "Trybewarts".
