@@ -113,8 +113,4 @@ window.onload = () => {
   buttonNavBar.addEventListener('click', generateAlertInput);
   agreement.addEventListener('change', enableSubmitBtn);
   submitBtn.addEventListener('click', showReply);
-  // --- Function to activate the enter button to get the results of the form -----
-  document.addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') submitBtn.click();
-  });
 };
