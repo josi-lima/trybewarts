@@ -1,0 +1,166 @@
+/* ============ General settings ================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@900&family=Josefin+Sans:wght@500&&display=swap'); /* Fonts: Josefin Sans, Inknut Antiqua */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ============== Background image =============== */
+html {
+  background-image: url('bg-img.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-color: rgba(12, 8, 8, 0.687);
+  font-family: Josefin Sans, sans-serif;
+}
+
+body:before {
+  content: '';
+  position: absolute;
+}
+
+/* =========== Header ===================== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(50, 167, 145);
+  padding: 0 5vmin;
+  margin-bottom: 2vmax;
+}
+
+/* ========== Navigation bar =============== */
+
+/* Img - small trybe logo */
+.trybewarts-header-logo {
+  width: 4.2vmax;
+  height: 4.2vmax;
+}
+
+/* Title */
+#trybewarts-header-title {
+  font: 2.1vmax Inknut Antiqua, serif;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+/* Login form */
+.trybewarts-login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.button-nav-bar {
+  padding: 0.4rem 0.8rem;
+  font-weight: 900;
+  border: none;
+  border-radius: 0.7rem;
+  background-color: rgb(116, 12, 125);
+  color: white;
+  cursor: pointer;
+}
+
+.button-nav-bar:active {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+/* =========== Main =================  */
+main {
+  display: flex;
+  margin: 2vmax;
+  color: white;
+}
+
+.checkbox , input , label {
+  cursor: pointer;
+}
+
+/* Trybewarts image logo */
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+/* =========== Evaluation form =================  */
+#evaluation-form {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0.7vmax 2vmax;
+  width: 675px;
+}
+
+/* All inputs */
+input {
+  margin: 0.8vmin;
+}
+
+.container-form01 {
+  margin: 1vmin;
+}
+
+/* Select-menu */
+#house {
+  width: 30%;
+}
+
+/* Radio-buttons */
+.container-form-white > div {
+  color: white;
+  margin: 0.5rem;
+}
+
+.container-form-white {
+  margin-bottom: 2vmax;
+}
+
+/* Submit button */
+#submit-btn {
+  text-align: center;
+  font-weight: 900;
+  padding: 0.3rem;
+  width: 20%;
+  background-color: rgb(116, 12, 125);
+  color: white;
+  border: none;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+
+#submit-btn:disabled {
+  font-weight: 400;
+  background-color: rgb(109, 90, 109);
+  border: 1px solid rgb(116, 12, 125);
+}
+
+#submit-btn:enabled {
+  transform: scale(1.05);
+}
+
+#submit-btn:active {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
+/* footer */
+.container-footer {
+  padding: 0.57rem;
+  text-align: center;
+  color: white;
+  background: linear-gradient(0deg, rgba(47, 25, 21, 1) 50%, rgba(37, 20, 17, 1) 100%);
+}
+
+/* ================================================================================= */
+
