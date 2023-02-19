@@ -39,7 +39,7 @@ function generateAlertInput() {
     alert('Email ou senha inválidos.');
   }
 }
-generateAlertInput();
+// generateAlertInput();
 
 // Functions to enable or disable submit button =======================================
 
