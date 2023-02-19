@@ -9,7 +9,7 @@
 
 /* ============== Background image =============== */
 html {
-  background-image: url('bg-img.jpg');
+  background-image: url('images/bg-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
