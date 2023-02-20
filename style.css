@@ -52,6 +52,14 @@
     display: none; }
   }
 
+hr {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+
 /* ============== Background image =============== */
 html {
   background-image: url('images/bg-img.jpg');
