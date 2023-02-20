@@ -29,6 +29,14 @@
   background: var(--bg-color-yellow);
 }
 
+/* =========== Patterns ======================= */
+
+hr {
+      margin: 3px auto;
+      width: 70%;
+      background-color: #fff;
+}
+
 /* =========== Media query ======================= */
 
 @media (max-width: 55rem) {  /* mobile format */
@@ -51,11 +59,6 @@
   #trybewarts-forms-logo , .animation-container {
     display: none; }
   }
-
-hr {
-    margin: 3px auto;
-    width: 70%;
-    background-color: #fff;
 }
 
 /* ============== Background image =============== */
