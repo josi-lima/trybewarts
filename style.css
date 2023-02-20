@@ -32,7 +32,7 @@
 /* =========== Patterns ======================= */
 
 hr {
-  margin: 2px auto;
+  margin: 1.5px auto;
   width: 70%;
   background-color: #fff;
 }
@@ -54,7 +54,7 @@ hr {
   
   #evaluation-form , .textarea {
     text-align: center;
-    max-width: 100%; }  
+    max-width: 80%; }  
 
   #trybewarts-forms-logo , .animation-container {
     display: none; }
@@ -168,7 +168,7 @@ input, select, textarea, option, button, placeholder {
 #evaluation-form {
   display: flex;
   flex-flow: column wrap;
-  max-width: 80%;
+  max-width: 100%;
   margin: 0.7vmax 2vmax;
   padding: 2.5vmax;
   font-size: 2.4vmin;
@@ -210,7 +210,7 @@ input {
 
 /* Submit button */
 
-.sub-btn {
+.sub-agreement , .sub-btn {
   display: flex;
   justify-content: center;
 }
@@ -534,4 +534,3 @@ input {
     transform: translateY(0) scale(0.45);
   }
 }
-
