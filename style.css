@@ -150,10 +150,10 @@ main {
 /* =========== Evaluation form =================  */
 
 input, select, textarea, option, button, placeholder {
-  font-family: 1.2vmax Josefin Sans, sans-serif;
+  font-family: 1.1vmax Josefin Sans, sans-serif;
   border: none;
   border-radius: 1.5rem;
-  padding: 1.5vmin 3vmin;
+  padding: 1.5vmin 2.9vmin;
 }
 
 #forms {
@@ -169,7 +169,7 @@ input, select, textarea, option, button, placeholder {
   max-width: 80%;
   margin: 0.7vmax 2vmax;
   padding: 2vmax;
-  font-size: 3vmin;
+  font-size: 2.8vmin;
   border-radius: 1.7rem;
   background-color: rgba(59, 67, 65, 0.384);
 }
@@ -203,7 +203,7 @@ input {
 }
 
 .container-form-white {
-  margin-bottom: 2vmax;
+  margin: 1.5vmax;
 }
 
 /* Submit button */
