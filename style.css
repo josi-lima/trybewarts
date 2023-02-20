@@ -66,8 +66,8 @@ html {
   background-image: url('images/bg-img.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 100vw;
-  height: 100vh;
+  max-width: 100vw;
+  min-height: 100vh;
 }
 
 body {
