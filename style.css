@@ -32,9 +32,9 @@
 /* =========== Patterns ======================= */
 
 hr {
-      margin: 2px auto;
-      width: 70%;
-      background-color: #fff;
+  margin: 2px auto;
+  width: 70%;
+  background-color: #fff;
 }
 
 /* =========== Media query ======================= */
@@ -59,7 +59,6 @@ hr {
   #trybewarts-forms-logo , .animation-container {
     display: none; }
   }
-}
 
 /* ============== Background image =============== */
 html {
@@ -156,7 +155,7 @@ input, select, textarea, option, button, placeholder {
   font-family: 1.1vmax Josefin Sans, sans-serif;
   border: none;
   border-radius: 1.5rem;
-  padding: 1.5vmin 2.9vmin;
+  padding: 1.5vmin 2vmin;
 }
 
 #forms {
@@ -171,8 +170,8 @@ input, select, textarea, option, button, placeholder {
   flex-flow: column wrap;
   max-width: 80%;
   margin: 0.7vmax 2vmax;
-  padding: 2vmax;
-  font-size: 2.6vmin;
+  padding: 2.5vmax;
+  font-size: 2.4vmin;
   border-radius: 1.7rem;
   background-color: rgba(59, 67, 65, 0.384);
 }
@@ -206,7 +205,7 @@ input {
 }
 
 .container-form-white {
-  margin: 1vmax;
+  margin: 0.8vmax;
 }
 
 /* Submit button */
