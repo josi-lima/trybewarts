@@ -53,9 +53,9 @@
   }
 
 hr {
-    margin: 1vmin auto;
+    margin: 1px;
     border: 0;
-    height: 1vmin;
+    height: 1px;
     width: 70%;
     background-color: #fff;
 }
