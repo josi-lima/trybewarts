@@ -7,17 +7,62 @@
   padding: 0;
 }
 
+/* Variables*/
+
+:root{
+  --bg-color-red: #ae0001;
+  --bg-color-yellow: #F6C715;
+}
+
+/* ============ Scrollbar =============== */
+
+::-webkit-scrollbar {
+  width: 2.8vmin; }
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #000; }
+ 
+::-webkit-scrollbar-thumb {
+  background:rgba(28, 30, 28, 0.994); }
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bg-color-yellow);
+}
+
+/* =========== Media query ======================= */
+
+@media (max-width: 55rem) {  /* mobile format */
+
+  .header, .trybewarts-login {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    padding: 3vmin;
+  }
+
+  .trybewarts-header-logo {
+    margin-top: 3.5vmin;
+  }
+  
+  #evaluation-form , .textarea {
+    text-align: center;
+    max-width: 100%; }  
+
+  #trybewarts-forms-logo , .animation-container {
+    display: none; }
+  }
+
 /* ============== Background image =============== */
 html {
   background-image: url('images/bg-img.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  background-size: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 body {
-  background-color: rgba(12, 8, 8, 0.687);
+  background-color:rgba(7, 8, 8, 0.665);
   font-family: Josefin Sans, sans-serif;
 }
 
@@ -32,7 +77,7 @@ body:before {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgb(50, 167, 145);
+  background-color: var(--bg-color-yellow);
   padding: 0 5vmin;
   margin-bottom: 2vmax;
 }
@@ -47,9 +92,9 @@ body:before {
 
 /* Title */
 #trybewarts-header-title {
-  font: 2.1vmax Inknut Antiqua, serif;
+  font: 1.9em Inknut Antiqua, serif;
   font-weight: 900;
-  color: white;
+  color: #fff;
   display: flex;
   justify-content: center;
 }
@@ -65,11 +110,13 @@ body:before {
 
 .button-nav-bar {
   padding: 0.4rem 0.8rem;
-  font-weight: 900;
+  font: 1.2vmax Josefin Sans, sans-serif;
+  font-weight: 700;
+  letter-spacing: .05rem;
   border: none;
   border-radius: 0.7rem;
-  background-color: rgb(116, 12, 125);
-  color: white;
+  background-color: var(--bg-color-red);
+  color: #fff;
   cursor: pointer;
 }
 
@@ -82,7 +129,7 @@ body:before {
 main {
   display: flex;
   margin: 2vmax;
-  color: white;
+  color: #fff;
 }
 
 .checkbox , input , label {
@@ -95,14 +142,38 @@ main {
 }
 
 /* =========== Evaluation form =================  */
+
+input, select, textarea, option, button, placeholder {
+  font-family: Josefin Sans, sans-serif;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 1.5vmin 2vmin;
+}
+
+#forms {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
 #evaluation-form {
   display: flex;
   flex-flow: column wrap;
+  max-width: 80%;
   margin: 0.7vmax 2vmax;
   padding: 2vmax;
-  width: 40vmax;
+  font-size: 3vmin;
   border-radius: 1.7rem;
-  background-color: rgba(59, 67, 65, 0.547);
+  background-color: rgba(59, 67, 65, 0.384);
+}
+
+.container-form01 , .container-form02 , .container-form-white {
+  width: 100%;
+}
+
+#textarea {
+  width: 90%;
 }
 
 /* All inputs */
@@ -116,12 +187,12 @@ input {
 
 /* Select-menu */
 #house {
-  width: 30%;
+  width: 35%;
 }
 
 /* Radio-buttons */
 .container-form-white > div {
-  color: white;
+  color: #fff;
   margin: 0.5rem;
 }
 
@@ -130,13 +201,21 @@ input {
 }
 
 /* Submit button */
+
+.sub-btn {
+  display: flex;
+  justify-content: center;
+}
+
 #submit-btn {
+  font: 2.5vmin Josefin Sans, sans-serif;
+  font-weight: 700;
+  letter-spacing: .1rem;
   text-align: center;
-  font-weight: 900;
-  padding: 0.3rem;
-  width: 20%;
-  background-color: rgb(116, 12, 125);
-  color: white;
+  padding: 0.5rem;
+  width: 35%;
+  background-color: var(--bg-color-red);
+  color: #fff;
   border: none;
   border-radius: 0.7rem;
   cursor: pointer;
@@ -144,8 +223,8 @@ input {
 
 #submit-btn:disabled {
   font-weight: 400;
-  background-color: rgb(109, 90, 109);
-  border: 1px solid rgb(116, 12, 125);
+  background-color: rgba(113, 12, 12, 0.629);
+  border: 1px solid var(--bg-color-red);
 }
 
 #submit-btn:enabled {
@@ -159,10 +238,12 @@ input {
 
 /* footer */
 .container-footer {
+  font-size: 1.6vmax;
+  position: relative;
   padding: 0.57rem;
   text-align: center;
-  color: white;
-  background: linear-gradient(0deg, rgba(47, 25, 21, 1) 50%, rgba(37, 20, 17, 1) 100%);
+  color: #fff;
+  background-color: var(--bg-color-yellow);
 }
 
 /* ====== Flying birds animation effect ================================================ */
