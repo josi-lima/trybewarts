@@ -8,7 +8,7 @@
     <title>TrybeWarts</title>
   </head>
 
-  <body>
+   <body>
     <header>
       <!-- Navigation bar -->
       <nav class="header">
@@ -18,11 +18,11 @@
 
         <!-- Login form - inside nav bar -->
         <form action="#" method="get" class="trybewarts-login">
-          <label for="email">
-            <input type="email" id="email" name="email" placeholder="Email" required />
+          <label for="email" class="form-label">
+            <input type="email" id="email" class="form-control" name="email" placeholder="Email" required />
           </label>
-          <label for="senha">
-            <input type="password" id="senha" name="password" placeholder="Senha" required />
+          <label for="senha" class="form-label">
+            <input type="password" id="senha" class="form-control" name="password" placeholder="Senha" required />
           </label>
           <button type="submit" class="button-nav-bar">Entrar</button>
         </form>
@@ -60,7 +60,7 @@
           
           <!-- ==================== Flying birds effect ======================== -->
           <div>
-            <div class="container">
+            <div class="animation-container">
               <div class="bird-container bird-container--one">
                 <div class="bird bird--one"></div>
               </div>
@@ -123,7 +123,7 @@
             <label class="textarea">Deixe seu comentário:</label>
             <div>
               <label for="text-area">
-                <textarea name="comments" id="textarea" cols="50" rows="8" maxlength="500" minlength="0"></textarea>
+                <textarea name="comments" id="textarea" rows="8" maxlength="500" minlength="0"></textarea>
               </label>
               <div id="counter">500</div>
             </div>
@@ -136,7 +136,7 @@
           </section>
           
           <!-- Button submit -->
-          <div>
+          <div class="sub-btn">
             <button type="submit" id="submit-btn" disabled>Enviar</button>
           </div>
         </form>
@@ -148,9 +148,10 @@
     </main>
     <!-- Footer -->
     <div class="container-footer">
-      <footer id="rodape">Direitos reservados à Trybewarts©</footer>
+      <footer id="rodape">Trybewarts© 2023</footer>
     </div>
     
     <script src="script.js"></script>
   </body>
 </html>
+
