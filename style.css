@@ -241,6 +241,7 @@ input {
   font-size: 1.6vmax;
   position: relative;
   padding: 0.57rem;
+  margin: 0;
   text-align: center;
   color: #fff;
   background-color: var(--bg-color-yellow);
