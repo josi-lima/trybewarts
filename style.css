@@ -39,7 +39,7 @@ hr {
 
 /* =========== Media query ======================= */
 
-@media (max-width: 55rem) {  /* mobile format */
+@media (max-width: 52rem) {  /* mobile format */
 
   .header, .trybewarts-login {
     display: flex;
@@ -59,6 +59,12 @@ hr {
   #trybewarts-forms-logo , .animation-container {
     display: none; }
   }
+
+@media (min-width: 50rem) {  /* desktop format */
+  #trybewarts-forms-mobile {
+    display: none;
+  }
+}
 
 /* ============== Background image =============== */
 html {
@@ -146,7 +152,12 @@ main {
 
 /* Trybewarts image logo */
 #trybewarts-forms-logo {
-  height: 36vmax;
+  height: 35vmax;
+}
+
+/* Trybewarts image logo - mobile format */
+#trybewarts-forms-mobile {
+  height: 30vmax;
 }
 
 /* =========== Evaluation form =================  */
@@ -253,6 +264,20 @@ input {
   text-align: center;
   color: #fff;
   background-color: var(--bg-color-yellow);
+}
+
+/* =============== Second page - form reply ======================= */
+
+#form-data {
+  background-image: url('images/img-03.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 1.7rem;
+  margin-top: 2vmax !important;
+  padding: 24vmax 4vmax 4vmax !important;
+  font-size: 1.4vmax !important;
+  text-align: center;
+  color: #000 !important;
 }
 
 /* ====== Flying birds animation effect ================================================ */
@@ -534,3 +559,4 @@ input {
     transform: translateY(0) scale(0.45);
   }
 }
+
