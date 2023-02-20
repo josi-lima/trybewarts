@@ -144,10 +144,10 @@ main {
 /* =========== Evaluation form =================  */
 
 input, select, textarea, option, button, placeholder {
-  font-family: 1.4vmax Josefin Sans, sans-serif;
+  font-family: 1.2vmax Josefin Sans, sans-serif;
   border: none;
   border-radius: 1.5rem;
-  padding: 1.5vmin 3.7vmin;
+  padding: 1.5vmin 3vmin;
 }
 
 #forms {
