@@ -100,8 +100,8 @@ body:before {
 
 /* Img - small trybe logo */
 .trybewarts-header-logo {
-  width: 4.2vmax;
-  height: 4.2vmax;
+  width: 4rem;
+  height: 4rem;
 }
 
 /* Title */
@@ -182,7 +182,7 @@ input, select, textarea, option, button, placeholder {
   max-width: 100%;
   margin: 0.7vmax 2vmax;
   padding: 2.5vmax;
-  font-size: 2.5vmin;
+  font-size: 2.6vmin;
   border-radius: 1.7rem;
   background-color: rgba(59, 67, 65, 0.384);
 }
