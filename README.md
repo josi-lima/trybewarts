@@ -14,3 +14,8 @@
 <br>
 
 Projeto [Trybe](https://www.betrybe.com/) | Uma página com o tema do filme Harry Potter, exibindo uma ficha de avaliação. Nesta página, o usuário pode avaliar sua experiência na escola fictícia de desenvolvimento de magia "Trybewarts".
+
+<br>
+
+![trybewarts](https://user-images.githubusercontent.com/108018406/220751563-960187c9-bebb-49f2-9362-db5eed8951d9.png)
+
