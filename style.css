@@ -182,7 +182,7 @@ input, select, textarea, option, button, placeholder {
   max-width: 100%;
   margin: 0.7vmax 2vmax;
   padding: 2.5vmax;
-  font-size: 2.5rem;
+  font-size: 2.5em;
   border-radius: 1.7rem;
   background-color: rgba(59, 67, 65, 0.384);
 }
