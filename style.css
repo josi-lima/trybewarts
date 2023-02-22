@@ -55,6 +55,10 @@ hr {
   #evaluation-form , .textarea {
     text-align: center;
     max-width: 80%; }  
+  
+   #evaluation-form {
+     margin: 0.7vmax 2vmax;
+  }
 
   #trybewarts-forms-logo , .animation-container {
     display: none; }
