@@ -128,7 +128,7 @@ body:before {
 
 .button-nav-bar {
   padding: 0.4rem 0.8rem;
-  font: 1.2vmax Josefin Sans, sans-serif;
+  font: 1.05rem Josefin Sans, sans-serif;
   font-weight: 700;
   letter-spacing: .05rem;
   border: none;
@@ -231,7 +231,7 @@ input {
 }
 
 #submit-btn {
-  font: 2.5vmin Josefin Sans, sans-serif;
+  font: 1rem Josefin Sans, sans-serif;
   font-weight: 700;
   letter-spacing: .1rem;
   text-align: center;
@@ -261,7 +261,7 @@ input {
 
 /* footer */
 .container-footer {
-  font-size: 1.6vmax;
+  font-size: 1rem;
   position: relative;
   padding: 0.57rem;
   margin: 0;
@@ -277,9 +277,9 @@ input {
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 1.7rem;
-  margin-top: 2vmax !important;
-  padding: 24vmax 4vmax 4vmax !important;
-  font-size: 1.4vmax !important;
+  margin-top: 7% !important;
+  padding: 40% 7% 7% !important;
+  font-size: 1.7vmax !important;
   text-align: center;
   color: #000 !important;
 }
@@ -563,4 +563,3 @@ input {
     transform: translateY(0) scale(0.45);
   }
 }
-
