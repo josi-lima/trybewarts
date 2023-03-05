@@ -13,7 +13,7 @@
 <strong>[POR]</strong>
 <br>
 
-Projeto [Trybe](https://www.betrybe.com/) | Uma página com o tema do filme saga Harry Potter, exibindo uma ficha de avaliação. Nesta página, o usuário pode avaliar sua experiência na escola fictícia de desenvolvimento de magia "Trybewarts".
+Projeto [Trybe](https://www.betrybe.com/) | Uma página com o tema do filme saga Harry Potter, exibindo uma ficha de avaliação. Nesta página, a pessoa usuária pode avaliar sua experiência na escola fictícia de desenvolvimento de magia "Trybewarts".
 
 <br>
 
