@@ -82,6 +82,7 @@ html {
 body {
   background-color:rgba(7, 8, 8, 0.665);
   font-family: Josefin Sans, sans-serif;
+  overflow-x: hidden;
 }
 
 body:before {
